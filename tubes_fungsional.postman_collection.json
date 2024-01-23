@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "1979872f-ea41-4dd9-ba16-ef95fe400a9f",
+		"name": "tubes_fungsional",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32441922"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:5000",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "nama",
+							"value": "Bikes and Planes",
+							"type": "text"
+						},
+						{
+							"key": "genre",
+							"value": "Racing Sims",
+							"type": "text"
+						},
+						{
+							"key": "rating",
+							"value": "8/10",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		}
+	]
+}
